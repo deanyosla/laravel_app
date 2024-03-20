@@ -3,7 +3,7 @@
         <article class="flex flex-col items-center gap-12">
 
             <section class="w-full flex flex-col items-center gap-4">
-                <img src="{{ asset('storage/' . $company->logo) }}" alt="" class="rounded-l w-48">
+                <img src="{{ asset($company->logo) }}" alt="" class="rounded-l w-48">
 
                 <p class="text-gray-400 text-xs">
                     Added <time>{{ $company->created_at->diffForHumans() }}</time>
