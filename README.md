@@ -7,6 +7,77 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+Sure, here's a Git-styled README.md file outlining the installation steps for your Laravel application:
+
+---
+
+# Laravel Company Dashboard
+
+Welcome to the Laravel Company Dashboard! This web application allows you to manage companies and their employees seamlessly. Follow the instructions below to get started.
+
+## Installation
+
+### Prerequisites
+Before you begin, ensure you have the following installed on your system:
+- [PHP](https://www.php.net/) (>= 8.0)
+- [Composer](https://getcomposer.org/)
+- [Node.js](https://nodejs.org/)
+- [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Step 1: Clone the Repository
+Clone this repository to your local machine:
+
+```bash
+git clone [<repository-url>](https://github.com/deanyosla/laravel_app.git)
+```
+
+### Step 2: Install Dependencies
+Navigate to the project directory and install PHP and JavaScript dependencies:
+
+```bash
+cd laravel_app
+
+# Install PHP dependencies
+composer install
+
+# Install JavaScript dependencies
+npm install # or yarn install
+```
+
+### Step 3: Configure Environment
+Duplicate the `.env.example` file and rename it to `.env`. Update the database configuration and any other relevant settings:
+
+```bash
+cp .env.example .env
+```
+
+### Step 4: Generate Application Key
+Generate a new application key:
+
+```bash
+php artisan key:generate
+```
+
+### Step 5: Run Migrations
+Run database migrations to create the necessary tables:
+
+```bash
+php artisan migrate
+```
+
+### Step 6: Serve the Application
+Start the Laravel development server:
+
+```bash
+php artisan serve
+```
+
+### Step 7: Access the Application
+Open your web browser and navigate to `http://localhost:8000` to access the Laravel Company Dashboard. You should see the login/register page.
+
+### Step 8: Register/Login
+Register a new account or log in with existing credentials to access the dashboard and start managing companies and employees.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
