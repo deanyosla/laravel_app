@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed on your system:
 Clone this repository to your local machine:
 
 ```bash
-git clone [<repository-url>](https://github.com/deanyosla/laravel_app.git)
+git clone https://github.com/deanyosla/laravel_app.git
 ```
 
 ### Step 2: Install Dependencies
