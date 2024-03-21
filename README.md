@@ -6,9 +6,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
-Sure, here's a Git-styled README.md file outlining the installation steps for your Laravel application:
-
 ---
 
 # Laravel Company Dashboard
